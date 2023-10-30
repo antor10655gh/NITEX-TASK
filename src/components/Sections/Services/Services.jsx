@@ -55,7 +55,7 @@ export default function Services() {
             </p>
           </div>
           <div
-            className="service-box-row"
+            className="myService"
             data-aos="fade-up"
             data-aos-duration="1500"
           >

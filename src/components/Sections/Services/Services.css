@@ -10,7 +10,7 @@
   text-align: center;
 }
 
-.service-box-row {
+.myService {
   padding: 60px 0;
   display: flex;
   justify-content: center;
@@ -19,7 +19,7 @@
 }
 
 /* Styles for the service box row */
-.service-box-row {
+.myService {
   @media (max-width: 860px) {
     flex-direction: column;
   }
