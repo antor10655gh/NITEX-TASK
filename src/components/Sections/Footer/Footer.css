@@ -1,0 +1,48 @@
+/* Footer styling */
+.footer-wrapper {
+  background-color: #0b093b;
+  color: #fff;
+  padding: 20px 0;
+}
+
+.inner-wrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+/* Container within the footer */
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+/* Styling for the logo in the footer */
+.logo-link {
+  text-decoration: none;
+  color: #fff;
+}
+
+.logo-link img {
+  width: 100px;
+}
+
+/* Styling for the copyright text in the footer */
+.white-color {
+  color: #fff;
+}
+
+.purple-color {
+  color: #7620ff;
+}
+
+/* Styling for the "Back to top" link */
+.animate.pointer {
+  text-decoration: none;
+  color: #fff;
+}
+
+.animate.pointer:hover {
+  color: #7620ff;
+}

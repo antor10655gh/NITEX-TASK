@@ -1,0 +1,74 @@
+/* Header.css */
+.header {
+  padding-top: 180px;
+  width: 100%;
+  min-height: 840px;
+}
+
+.left-side {
+  width: 50%;
+  height: 100%;
+}
+
+.right-side {
+  width: 50%;
+  height: 100%;
+}
+
+.header-p {
+  max-width: 470px;
+  padding: 15px 0 50px 0;
+  line-height: 1.5rem;
+}
+
+.btn-wrapper {
+  max-width: 190px;
+}
+
+.grey-div {
+  width: 30%;
+  height: 700px;
+  position: absolute;
+  top: 0;
+  right: 0;
+  z-index: 0;
+}
+
+.image-wrapper {
+  display: flex;
+  justify-content: flex-end;
+  position: relative;
+  z-index: 9;
+}
+
+img.radius8 {
+  /* Define any image-specific styles here */
+}
+
+.quote-wrapper {
+  position: absolute;
+  left: 0;
+  bottom: 50px;
+  max-width: 330px;
+  padding: 30px;
+  z-index: 99;
+}
+
+.quotes-icon {
+  position: absolute;
+  left: -20px;
+  top: -10px;
+}
+
+.dots-wrapper {
+  position: absolute;
+  right: -100px;
+  bottom: 100px;
+  z-index: 2;
+}
+
+.dots-wrapper {
+  @media screen and (max-width: 860px) {
+    display: none;
+  }
+}

@@ -1,0 +1,213 @@
+/* Projects.css */
+.projects {
+  width: 100%;
+}
+
+/* Basic styles */
+.whiteBg {
+  background-color: white;
+}
+
+.container {
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.textCenter {
+  text-align: center;
+}
+
+.flexCenter {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.flexSpaceCenter {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.flexNullCenter {
+  display: flex;
+  justify-content: null;
+  align-items: center;
+}
+
+/* Header styles */
+.headerInfo {
+  text-align: center;
+}
+
+.headerInfo h1 {
+  font-size: 40px;
+  font-weight: 700;
+}
+
+.headerInfo p {
+  font-size: 13px;
+  margin-top: 10px;
+}
+
+/* Project styles */
+.col-xs-12,
+.col-sm-4,
+.col-md-4,
+.col-lg-4 {
+  width: 100%;
+  text-align: center;
+}
+
+.ProjectBox {
+  background-color: #f7f7f7;
+  border-radius: 8px;
+  padding: 20px;
+}
+
+.ProjectBox img {
+  max-width: 100%;
+}
+
+.ProjectBox .title {
+  font-size: 18px;
+  font-weight: 700;
+  margin-top: 10px;
+}
+
+.ProjectBox .text {
+  font-size: 13px;
+  margin-top: 10px;
+}
+
+/* Button styles */
+.FullButton {
+  display: inline-block;
+  background-color: #007bff;
+  color: white;
+  padding: 10px 20px;
+  border-radius: 8px;
+  text-align: center;
+  cursor: pointer;
+}
+
+.FullButton.border {
+  border: 2px solid #007bff;
+  background-color: transparent;
+}
+
+/* Light background section styles */
+.lightBg {
+  background-color: #f2f2f2;
+  padding: 100px 0;
+  margin: 100px 0;
+}
+
+/* Advertising section styles */
+.advertising {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.addLeft {
+  width: 50%;
+  position: relative;
+}
+
+.addLeftInner {
+  position: absolute;
+  top: -300px;
+  left: 0;
+}
+
+.addRight {
+  width: 50%;
+}
+
+.addRight h4 {
+  font-size: 15px;
+  font-weight: 600;
+}
+
+.addRight h2 {
+  font-size: 40px;
+  font-weight: 700;
+  margin-top: 10px;
+}
+
+.addRight p {
+  font-size: 12px;
+  margin-top: 10px;
+}
+
+.add-left {
+  @media (max-width: 860px) {
+    width: 100%;
+  }
+}
+.add-right {
+  @media (max-width: 860px) {
+    width: 100%;
+  }
+}
+
+/* ImgWrapper styles */
+.ImgWrapper {
+  width: 100%;
+  padding: 0 15%;
+}
+
+.ImgWrapper img {
+  max-width: 100%;
+  height: auto;
+}
+
+@media (max-width: 400px) {
+  .ImgWrapper {
+    padding: 0;
+  }
+}
+
+/* Responsive styles for smaller screens */
+@media (max-width: 1160px) {
+  .lightBg {
+    padding: 60px 0 40px 0;
+    margin: 60px 0;
+  }
+}
+
+@media (max-width: 760px) {
+  .lightBg {
+    flex-direction: column;
+    padding: 0 0 30px 0;
+    margin: 80px 0;
+  }
+
+  .advertising {
+    flex-direction: column;
+  }
+
+  .addLeft h2 {
+    line-height: 3rem;
+    margin-top: 15px;
+  }
+
+  .addLeft p {
+    margin: 0 auto;
+  }
+
+  .addRight {
+    width: 80%;
+    order: 2;
+  }
+
+  .addLeftInner {
+    order: 1;
+    position: relative;
+    top: -60px;
+    left: 0;
+  }
+}

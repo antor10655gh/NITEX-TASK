@@ -1,0 +1,80 @@
+/* External CSS for Blog component */
+.wrapper {
+  width: 100%;
+  padding-top: 20px;
+}
+
+.headerInfo {
+  margin-bottom: 30px;
+}
+
+.whiteBg {
+  background-color: #fff;
+  color: #000;
+  padding: 50px 0;
+}
+
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.col-xs-12,
+.col-sm-4,
+.col-md-4,
+.col-lg-4 {
+  width: 100%; /* Adjust as needed for responsiveness */
+  padding: 15px;
+  box-sizing: border-box;
+}
+
+/* Define styles for BlogBox */
+.blog-box {
+  background-color: #f5f5f5;
+  border: 1px solid #e0e0e0;
+  padding: 20px;
+  border-radius: 4px;
+}
+
+.blog-box h2 {
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.blog-box p {
+  font-size: 14px;
+}
+
+.blog-box .tag {
+  font-weight: bold;
+}
+
+.blog-box .author {
+  color: #777;
+  font-size: 12px;
+}
+
+.full-button {
+  background-color: #0073e6;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.lightBg {
+  background-color: #f5f5f5;
+  padding: 50px 0;
+}
+
+.testimonial-slider {
+  /* Define styles for the testimonial slider */
+}
+
+/* Define styles for other elements using their class names */
+/* For example: */
+.container {
+  /* Your styles here */
+}

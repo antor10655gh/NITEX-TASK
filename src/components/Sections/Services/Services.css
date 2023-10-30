@@ -1,0 +1,177 @@
+/* Services.css */
+
+/* Define styles for the services section */
+.services {
+  width: 100%;
+}
+
+/* Styles for the header info section */
+.header-info {
+  text-align: center;
+}
+
+.service-box-row {
+  padding: 60px 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+
+/* Styles for the service box row */
+.service-box-row {
+  @media (max-width: 860px) {
+    flex-direction: column;
+  }
+}
+
+/* Styles for each service box wrapper */
+.service-box-wrapper {
+  width: 20%;
+  margin-right: 5%;
+  padding: 80px 0;
+
+  @media (max-width: 860px) {
+    width: 100%;
+    text-align: center;
+    padding: 40px 0;
+  }
+}
+
+/* Styles for the advertising section */
+.advertising {
+  margin: 80px 0;
+  padding: 100px 0;
+  position: relative;
+
+  @media (max-width: 1160px) {
+    padding: 100px 0 40px 0;
+  }
+
+  @media (max-width: 860px) {
+    flex-direction: column;
+    padding: 0 0 30px 0;
+    margin: 80px 0 0px 0;
+  }
+}
+
+/* Styles for the buttons row */
+.buttons-row {
+  @media (max-width: 860px) {
+    justify-content: space-between;
+  }
+}
+
+/* Styles for the left side of the advertising section */
+.add-left {
+  width: 50%;
+
+  p {
+    max-width: 475px;
+  }
+
+  @media (max-width: 860px) {
+    width: 80%;
+    order: 2;
+    text-align: center;
+
+    h2 {
+      line-height: 3rem;
+      margin: 15px 0;
+    }
+
+    p {
+      margin: 0 auto;
+    }
+  }
+}
+
+/* Styles for the right side of the advertising section */
+.add-right {
+  width: 50%;
+  position: absolute;
+  top: -70px;
+  right: 0;
+
+  @media (max-width: 860px) {
+    width: 80%;
+    position: relative;
+    order: 1;
+    top: -40px;
+  }
+  .add-left {
+    @media (max-width: 860px) {
+      width: 100%;
+    }
+  }
+  .add-right {
+    @media (max-width: 860px) {
+      width: 100%;
+    }
+  }
+}
+
+/* Styles for the inner content of the right side */
+.add-right-inner {
+  width: 100%;
+}
+
+/* Styles for the image wrapper 1 in the right side */
+.add-img-wrapp-1 {
+  width: 48%;
+  margin: 0 6% 10px 6%;
+
+  img {
+    width: 100%;
+    height: auto;
+    border-radius: 1rem;
+    box-shadow: 0 2px 15px rgba(0, 0, 0, 0.3);
+    -webkit-box-shadow: 0 2px 15px rgba(0, 0, 0, 0.3);
+    -moz-box-shadow: 0 2px 15px rgba(0, 0, 0, 0.3);
+  }
+}
+
+/* Styles for the image wrapper 2 in the right side */
+.add-img-wrapp-2 {
+  width: 30%;
+  margin: 0 5% 10px 5%;
+
+  img {
+    width: 100%;
+    height: auto;
+    border-radius: 1rem;
+    box-shadow: 0 2px 15px rgba(0, 0, 0, 0.3);
+    -webkit-box-shadow: 0 2px 15px rgba(0, 0, 0, 0.3);
+    -moz-box-shadow: 0 2px 15px rgba(0, 0, 0, 0.3);
+  }
+}
+
+/* Styles for the image wrapper 3 in the right side */
+.add-img-wrapp-3 {
+  width: 20%;
+  margin-left: 40%;
+
+  img {
+    width: 100%;
+    height: auto;
+    border-radius: 1rem;
+    box-shadow: 0 2px 15px rgba(0, 0, 0, 0.3);
+    -webkit-box-shadow: 0 2px 15px rgba(0, 0, 0, 0.3);
+    -moz-box-shadow: 0 2px 15px rgba(0, 0, 0, 0.3);
+  }
+}
+
+/* Styles for the image wrapper 4 in the right side */
+.add-img-wrapp-4 {
+  width: 30%;
+  margin: 0 5%auto;
+
+  img {
+    width: 100%;
+    height: auto;
+    border-radius: 1rem;
+    box-shadow: 0 2px 15px rgba(0, 0, 0, 0.3);
+    -webkit-box-shadow: 0 2px 15px rgba(0, 0, 0, 0.3);
+    -moz-box-shadow: 0 2px 15px rgba(0, 0, 0, 0.3);
+  }
+}

@@ -1,0 +1,40 @@
+/* TopNavbar.css */
+.nav {
+  width: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 999;
+  padding: 15px 0px;
+  background-color: #fff;
+  height: 100px;
+}
+
+.nav-inner {
+  position: relative;
+  height: 100%;
+}
+
+.burder-wrapper {
+  outline: none;
+  border: 0px;
+  background-color: transparent;
+  height: 100%;
+  padding: 0 15px;
+  display: none;
+}
+
+/* Add media queries as needed for responsiveness */
+@media (max-width: 760px) {
+  .burder-wrapper {
+    display: block;
+  }
+
+  .ul-wrapper {
+    display: none !important;
+  }
+
+  .ul-wrapper-right {
+    display: none !important;
+  }
+}
